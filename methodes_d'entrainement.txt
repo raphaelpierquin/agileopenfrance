@@ -1,0 +1,100 @@
+
+participer a un projet 
+=======================
+
+"c'est en forgeant que l'on devient forgeron"
+est-ce que c'est ça l'entrainement
+
+repeter un micro-projet from scratch
+====================================
+
+refaire la meme chose encore et encore
+ex: programmer une todolist we (fonctionnel simple)
+ svn, livrable, java, tests (contraintes a respecter)
+
+lire un livre et faire les exervices
+====================================
+
+ex: video store refactoring de M. Fowler
+
+faire des petites modifications souvent sur une varietes de projets
+===================================================================
+
+s'habiller à TOUCHER du code
+apprentissage par comparaison / "essayage de code"
+
+binomage
+========
+
+decouverte avec le temps des competences de l'autre
+apprentissage par surprise 'comment tu as fait çà?'
+
+randori
+=======
+un binome ou pas qui code pendant un temps imparti devant des gens 
+qui prendront le relais quand la timebox sera écoulée.
+
+on tourne toutes les 5'
+on tourne toutes les 7'
+
+ceux qui codent : programme à haute voix
+les observateurs ne donnent pas leur avis mais peuvent intervenir
+quand il ne comprenne pas.
+apprentissage dans un groupe homogène
+- <<red>> limiter les ambitions de l'exercice
+- <<red>> au moint un participant à défricher le sujet
+ 
+arret sur image
+===============
+
+décrire pourquoi je fais les choses dans le détail
+  - pourquoi j'aligne des paramètres ?
+ken beck sur best pratice en smalltalk
+
+outil de transmission pédagogique
+
+screencast (auto)
+=================
+s'enregistrer en train de faire qqchose
+se regarder 
+effet de la répétition
+"le screencast montre tout ce que ton binome n'ose pas te dire"
+
+challenges
+==========
+
+tirer au sort des exercices / défis écrits par les participants
+tenter de les faire les résoudre
+divertissant
+
+project euler
+=============
+
+résoudre les problèmes d'euler
+il faut résoudre le problème pour pouvoir lire les solutions des autres
+consulter les programmes des autres
+
+pleac
+=====
+refaire le perl cookbook dans d'autres langages
+
+kata
+====
+
+refaire dans un temps limite un exercice précis
+avancement étape par étape et description de ce qu'on en fait
+"screencast live"
+travail de préparation
+<red> travail de préparation
+
+PERFORMANCE
+
+apprendre de nouveaux langages
+==============================
+
+ce que j'apprend dans un langage m'apprends
+des choses sur ce que je fais dans un autre langage
+
+apprendre 7 langages en 7 semaines Bruce Tate (personne ne l'a lu)
+apprendre un langage par an
+
