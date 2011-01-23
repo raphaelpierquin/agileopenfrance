@@ -1,38 +1,39 @@
-Que faire avec l’agile ?
-Que ne pas faire avec l’agile.
+ï»¿Que faire avec lâ€™agile ?
+Que ne pas faire avec lâ€™agile.
+â€¢	Des rÃ©sultats financiers Â« Business value Â» jusquâ€™Ã  un certain point
+â€¢	Du plaisir au travail
+o	Un meilleur relationnel avec les collÃ¨gues et le management
+â€¢	RÃ©vÃ©ler les problÃ¨mes et crÃ©er de la frustration
+â€¢	10% des personnes ne supportent pas lâ€™agile
+â€¢	Le client qui dit Â« Je ne veux plus faire dâ€™agile Â» (situation inconfortable pour le client)
+â€¢	Meilleurs produits
+â€¢	CrÃ©ativitÃ©
+â€¢	Responsabilisation, accomplissement personnel, confiance
+â€¢	VisibilitÃ© pour des dÃ©cisions rapides
+â€¢	Prise de conscience politique
+o	Parfois dÃ©rangeante
+o	Au niveau de lâ€™Ã©quipe, du management de la direction et au delÃ 
+â€¢	Obtenir des feedback positif du client
+â€¢	Accomplissement au sens de Spinoza
+â€¢	Câ€™est moi qui choisit comment et quoi amÃ©liorer. Je dÃ©cide dâ€™amÃ©liorer la valeur produite, ca devient politique
+â€¢	CrÃ©er un partenariat entre le dÃ©veloppeur et le client final
+â€¢	Rentrer de plus en plus de personnes dans la sphÃ¨re dâ€™influence du dÃ©veloppeur
+o	Le dÃ©veloppeur se connecte de plus en plus loin au-delÃ  de sa sphÃ©re immÃ©diate.
+â€¢	Identifier collectivement Ã  quoi nous accordons de la valeur
+â€¢	Sâ€™intÃ©resser au lean (ie la valeur produite au-delÃ  du logiciel)
+â€¢	Plus de temps perso
+â€¢	Choisir mes responsabilitÃ©s
+â€¢	DÃ©cider de le faire (le produit) ou pas
+â€¢	Etendre la connexion de lâ€™Ã©quipe
+â€¢	CrÃ©er une Å“uvre de lâ€™esprit Ã  plusieurs
+â€¢	Apprendre Ã  travailler en groupe
+â€¢	Les choses que lâ€™on perd :
+o	Moins de chefs (pas adapter Ã  tous les contextes ?)
+o	Moins de travail solitaire
+â€¢	PrÃ©parer sa sociÃ©tÃ© Ã  la coopÃ©ration plutÃ´t quâ€™Ã  la compÃ©tition
+o	Trouver des solutions dÃ©cloisonnantes pour faire survivre lâ€™entreprise (nous nâ€™avons plus le choix)
+â€¢	Changement de mÃ©taphore dans notre civilisation
+o	Â« Machin â€“ mÃ©canisation Â» vers Â« organique â€“ coopÃ©ration Â»
 
-	•	Des résultats financiers « Business value » jusqu’à un certain point
-	•	Du plaisir au travail
-		o	Un meilleur relationnel avec les collègues et le management
-	•	Révéler les problèmes et créer de la frustration
-	•	10% des personnes ne supportent pas l’agile
-	•	Le client qui dit « Je ne veux plus faire d’agile » (situation inconfortable pour le client)
-	•	Meilleurs produits
-	•	Créativité
-	•	Responsabilisation, accomplissement personnel, confiance
-	•	Visibilité pour des décisions rapides
-	•	Prise de conscience politique
-		o	Parfois dérangeante
-		o	Au niveau de l’équipe, du management de la direction et au delà
-	•	Obtenir des feedback positif du client
-	•	Accomplissement au sens de Spinoza
-	•	C’est moi qui choisit comment et quoi améliorer. Je décide d’améliorer la valeur produite, ca devient politique
-	•	Créer un partenariat entre le développeur et le client final
-	•	Rentrer de plus en plus de personnes dans la sphère d’influence du développeur
-		o	Le développeur se connecte de plus en plus loin au-delà de sa sphére immédiate.
-	•	Identifier collectivement à quoi nous accordons de la valeur
-	•	S’intéresser au lean (ie la valeur produite au-delà du logiciel)
-	•	Plus de temps perso
-	•	Choisir mes responsabilités
-	•	Décider de le faire (le produit) ou pas
-	•	Etendre la connexion de l’équipe
-	•	Créer une œuvre de l’esprit à plusieurs
-	•	Apprendre à travailler en groupe
-	•	Les choses que l’on perd :
-		o	Moins de chefs (pas adapter à tous les contextes ?)
-		o	Moins de travail solitaire
-	•	Préparer sa société à la coopération plutôt qu’à la compétition
-		o	Trouver des solutions décloisonnantes pour faire survivre l’entreprise (nous n’avons plus le choix)
-	•	Changement de métaphore dans notre civilisation
-		o	« Machin – mécanisation » vers « organique – coopération »
+
 
