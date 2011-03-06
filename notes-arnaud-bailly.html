@@ -1,0 +1,686 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+               "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+lang="en" xml:lang="en">
+<head>
+<title>todo</title>
+<meta http-equiv="Content-Type" content="text/html;charset=iso-8859-1"/>
+<meta name="generator" content="Org-mode"/>
+<meta name="generated" content="2011-01-26 08:00:04 "/>
+<meta name="author" content=""/>
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Times, serif; font-size: 12pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color:lightblue; font-weight:normal }
+  .target { }
+  .timestamp { color: grey }
+  .timestamp-kwd { color: CadetBlue }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; }
+  td, th { vertical-align: top; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style><style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  html { font-family: Helvetica, sans; font-size: 10pt; }
+  .title  { text-align: center; }
+  .todo   { color: red; }
+  .done   { color: green; }
+  .tag    { background-color:lightblue; font-weight:normal }
+  .target { }
+  .timestamp { color: grey }
+  .timestamp-kwd { color: CadetBlue }
+  p.verse { margin-left: 3% }
+  pre {
+	border: 1pt solid #AEBDCC;
+	background-color: #F3F5F7;
+	padding: 5pt;
+	font-family: courier, monospace;
+        font-size: 90%;
+        overflow:auto;
+  }
+  table { border-collapse: collapse; border: thin solid black; background: #eee; }
+  td, th { vertical-align: top; ; border: thin solid black;}
+  th { background-color: lightblue; }
+  dt { font-weight: bold; }
+  div.figure { padding: 0.5em; }
+  div.figure p { text-align: center; }
+  .linenr { font-size:smaller }
+  .code-highlighted {background-color:#ffff00;}
+  .org-info-js_info-navigation { border-style:none; }
+  #org-info-js_console-label { font-size:10px; font-weight:bold;
+                               white-space:nowrap; }
+  .org-info-js_search-highlight {background-color:#ffff00; color:#000000;
+                                 font-weight:bold; }
+  /*]]>*/-->
+</style>
+
+<script type="text/javascript">
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*/-->
+</script>
+</head><body>
+<h1 class="title">Agile Open France 2011</h1>
+
+
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#sec-1">1 "Tout est Politique" </a></li>
+<li><a href="#sec-2">2 Pourquoi on croit ce qu'on croit ? </a></li>
+<li><a href="#sec-3">3 Beyond TDD </a></li>
+<li><a href="#sec-4">4 Vers l'auto-organisation </a></li>
+<li><a href="#sec-5">5 Enseigner l'agilité </a></li>
+<li><a href="#sec-6">6 Subvertir l'entreprise </a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-1" class="outline-4">
+<h4 id="sec-1">1 "Tout est Politique" </h4>
+<div id="text-1">
+
+
+<ul>
+<li id="sec-1.1">Miscellanées introductives <br/>
+
+<ul>
+<li>
+Slogan des gauchistes post-soixante-huitards, contre "l'apolitisme de droite": cantonner le
+Politique à certaines sphères, certains domaines, certaines activités, c'est rejeter dans la
+sphère du contrat privé, donc implicitement du rapport de force individuel, ces domaines,
+activités, sphères
+</li>
+<li>
+Figure du <b>Salaud</b> selon Sartre
+(<a href="http://fr.wikipedia.org/wiki/L%27existentialisme_est_un_humanisme">http://fr.wikipedia.org/wiki/L%27existentialisme_est_un_humanisme</a>): celui qui se "croit
+nécessaire", donc qui justifie ses actes par la nécessité/la Nature/la Société. Selon Sartre,
+l'homme est responsable parce que contingent: tous mes actes engagent ma responsabilité (mais
+Sartre a eu lui-même un comportement de "salaud" pendant la guerre, ses faits de Résistance ont
+été remis en cause par l'historiographie. Sources ?)
+</li>
+<li>
+Dans "Qu'est-ce que la philosophie antique ?" (voir
+<a href="http://pharisienlibere.wordpress.com/2007/02/06/pierre-hadot-quâ%80%99est-ce-que-la-philosophie-antique/">http://pharisienlibere.wordpress.com/2007/02/06/pierre-hadot-qu%E2%80%99est-ce-que-la-philosophie-antique/</a>
+pour une exégèse), Pierre Hadot met en avant le caractère pratique de la philosophie telle que la
+considérait les grecs: il s'agit de s'exercer, concrètement, à la vertu, et non d'écouter et de
+penser. La philosophie est acte.
+</li>
+<li>
+Dans <a href="http://multitudes.samizdat.net/La-Haine-de-la-democratie">"La Haine de la démocratie"</a>, Jacques Rancière identifie Démocratie et Politique: le
+Politique naît avec la démocratie, qui est le gouvernement de ceux qui n'ont aucun titre à
+gouverner. 
+</li>
+<li>
+"L'anarchie, c'est l'ordre moins le pouvoir" - Elisée Reclus
+</li>
+<li>
+L'Agilité est-elle juste un nouveau mode d'organisation? Une nouvelle méthode de développement,
+destinée à être supplantée par la prochaine mode (le Lean ?)? Où s'agit-il d'une manifestation de
+changement paradigmatique? Serres évoque l'âge de l'information, après l'âge de l'écriture et
+l'âge de l'imprimerie, pour insister sur les impacts énormes que l'informatique (pour faire
+court) a sur notre civilisation.
+</li>
+<li>
+Ne se prend-on pas la tête pour rien ? N'est-ce pas un passe-temps de mâle blanc entre 25 et 45
+ans de se poser des questions existentielles de ce genre ?  
+</li>
+<li>
+<b>Question</b>: Qui a une expérience d'engagement politique ? Qui veut en parler ?
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2">Minutes <br/>
+
+<ul>
+<li id="sec-1.2.1">Perrick <br/>
+
+<ul>
+<li>
+l'agilité est un laboratoire du futur, voir Pierre Rabhi et son intervention à TEDx (voir aussi
+<a href="http://cdurable.info/Vers-la-sobriete-heureuse-Pierre-Rabhi,2478.html">Vers la sobriété heureuse</a>). 
+</li>
+<li>
+lien avec le logiciel libre, de nouveaux mode de diffuser/traiter/partager/analyser l'information
+(<a href="http://www.guardian.co.uk/news/datablog/2010/oct/01/data-journalism-how-to-guide">data-journalism</a>)
+</li>
+<li>
+Thèse de ma femme: Penser la liberté sur le mode affective.
+</li>
+<li>
+La philosophie est production de concepts (<a href="http://multitudes.samizdat.net/article626.html">Qu'est-ce que la philosophie ?</a>, Deleuze-Guattari),
+elle entre en conflit avec la vie quotidienne
+</li>
+<li>
+expérience d'engagement en tant que syndiqué CFDT lors d'une expérience professionnelle
+antérieure. Pas de contribution significative, au-delà de la cotisation (0,025% du salaire)
+</li>
+<li>
+en tant que patron, pas trouvé de syndicat patronal adéquat
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.2">Gabriel <br/>
+
+<ul>
+<li>
+Engagement politique dans les MJS, tourne rapidement à la lutte de pouvoir pour la conquête des
+places
+
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.3">Bernard <br/>
+
+<ul>
+<li>
+tout le monde n'a pas eu la chance d'avoir des parents  communistes: les miens étaient au RPR&hellip;
+</li>
+<li>
+participation avec d'autres parents à une lutte contre la fermeture d'une classe/école dans le
+village. Le groupe de parent s'est rapproché dans la lutte, y compris avec le personnel
+enseignant, cela s'est traduit par une invitation de réveillon de Nouvel An: "les enfants ont vu
+leur maîtresse danser la lambada !"
+</li>
+<li>
+lien avec le concept de "Collectif" mis en avant par certains mouvements récents (infirmières,
+retraites, chômeurs&hellip;)
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.4">Dominic <br/>
+
+<ul>
+<li>
+Au début, XP était subversif et radical. Il voulait changer la façon dont les choses se passaient
+</li>
+<li>
+Quand on est étranger et qu'on n'a pas le droit de vote, le changement passe nécessairement par
+l'action personnelle
+</li>
+<li>
+Aujourd'hui le message est dilué 
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.5">Thierry <br/>
+
+<ul>
+<li>
+K.Beck présente explicitement XP comme un outil de "changement social"
+</li>
+<li>
+En Tunisie, Facebook a permis la diffusion du mouvement de contestation du régime
+</li>
+<li>
+Référence à Pierre Rabhi
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.6">Arnaud <br/>
+
+<ul>
+<li>
+Toujours existe "La tentation des forêts" (livre de Michel Onfray) : le choix de s'isoler, de
+vivre selon ses choix, avec des amis choisis, loin du bruit du monde&hellip;
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.7">Perrick <br/>
+
+<ul>
+<li>
+"Volem rien foutre al pais" (documentaire de P.Carles) énumère quelques exemples de mouvements
+contestataires: 
+<ul>
+<li>
+des étudiants squatteurs en Espagne
+</li>
+<li>
+des gens qui vivent uniquement du RMI/RSA à la campagne
+</li>
+<li>
+des communautés coupées du monde
+</li>
+</ul>
+</li>
+<li>
+comment vivre cette contestation quand on a des métiers intellectuels ? Quelle valeur a un
+informaticien dans un SEL ?
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.8">Manu <br/>
+
+<ul>
+<li>
+Je remarque que l'on réifie le droit de parole en utilisant un symbole que chacun cherche à
+s'approprier pour parler (au risque de ne pas écouter ?)
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.9">Raphaël <br/>
+
+<ul>
+<li>
+Au début, j'ai voulu changer Orange, c'était ma mission. Puis j'ai suivi les préceptes de Gandhi:
+"Soyez le changement que vous voulez voir dans le monde".
+</li>
+<li>
+Je veux créer un environnement qui me plaise, mais je veux aussi contribuer à en créer plein
+d'autres pour pouvoir en changer à ma guise
+</li>
+<li>
+Lutter contre le système de l'intérieur ou en sortir
+</li>
+<li>
+"je suis développeur" est un acte politique
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.10">Colin <br/>
+
+<ul>
+<li>
+expérience de construire une entreprise sur les principes de l'agilité: c'est subversif sans le
+vouloir. Les politiques internes mises en place (transparence de la comptabilité, décision par
+consensus) sont vécus à l'extérieur comme "politisés"
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.11">Gabriel <br/>
+
+<ul>
+<li>
+l'entreprise est un lieu de pouvoir, il y a une vision radicale de l'agilité comme lutte contre
+le pouvoir 
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.12">Manu <br/>
+
+<ul>
+<li>
+l'engagement serait déjà de refuser de rentrer dans une "boîte"
+</li>
+<li>
+la coopérative (UT7) est un projet politique, contre les donneurs de leçons
+</li>
+<li>
+se documenter, apprendre, comprendre ce qui a existé et ce que certains proposent, c'est un acte
+politique 
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.13">Olivier <br/>
+
+<ul>
+<li>
+consommer ce que l'on produit
+</li>
+<li>
+échanger des services
+
+</li>
+</ul>
+</li>
+<li id="sec-1.2.14">Thierry <br/>
+
+<ul>
+<li>
+substituer le troc et l'échange à l'argent
+</li>
+<li>
+l'agilité est un éthique (avant d'être une politique ?)
+
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-2" class="outline-4">
+<h4 id="sec-2">2 Pourquoi on croit ce qu'on croit ? </h4>
+<div id="text-2">
+
+
+<ul>
+<li>
+quels sont les divers modes d'acquisition de croyance ?
+<ul>
+<li>
+l'exposition à une  preuve scientifique 
+</li>
+<li>
+expérimentation personnelle
+</li>
+<li>
+la transmission par un tiers de confiance
+</li>
+<li>
+la transmission culturelle (ie. par acculturation ?)
+</li>
+<li>
+parce que ça m'arrange
+</li>
+</ul>
+</li>
+<li>
+ce qui nous intéresse plus particulièrement, ce sont les croyances liées aux méthodes de
+développement. On laisse de côté ("dans la boîte") les croyances relatives à l'évolution, à Dieu,
+au 11 septembre&hellip;
+</li>
+<li>
+l'ensemble des croyances non prouvables est bien plus grand que l'ensemble des croyances prouvables
+</li>
+<li>
+l'ensemble des croyances est plus grand et inclut l'ensemble des intuitions, évidences, déductions
+</li>
+<li>
+qui a fait l'expérience de changer d'avis ?
+<ul>
+<li>
+"j'ai cru pendant longtemps que l'objet était un snobisme"
+</li>
+<li>
+est-il possible d'avoir une conversion graduelle ? n'est-ce-pas un oxymore ? auquel cas,
+qu'est ce qui nous fait changer d'avis ?
+</li>
+<li>
+il existe des dispositions à croire, par exemple Agile est un memeplex, un système mouvant
+auto-porté et auto-renforcé qui induit une disposition à croie certaines choses (le TDD
+accélère le développement&hellip;)
+</li>
+</ul>
+</li>
+<li>
+sur quel sujet pense-t-on changer bientôt d'avis ? (étrange &hellip;)
+</li>
+<li>
+y-a-t'il des agilistes de droite ?
+</li>
+<li>
+processus de calibration, exprimer un degré de conviction et calibrer en fonction de prédictions
+dans un certain intervalle de confiance (??)
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-3" class="outline-4">
+<h4 id="sec-3">3 Beyond TDD </h4>
+<div id="text-3">
+
+
+<ul>
+<li>
+principes du TDD: définir une propriété que doit posséder le code, la vérifier empiriquement
+(ie. au moyen de l'exécution du code lui-même et de l'observation ou non de la présence de cette
+propriété)
+</li>
+<li>
+peut-on garder le principe en faisant autre chose que du tests (unitaires, intégration,
+fonctionnel&hellip;) ?
+
+</li>
+<li id="sec-3.1">autres outils <br/>
+
+<ul>
+<li>
+raisonnement équationnel (Pearls of Functional algorithm design, Richard Bird): partir d'une
+implémentation naïve, inefficace, mais explicite et simple du code, la raffiner au moyen de
+"théorèmes" prouvant l'équivalence entre diverses formes plus ou moins efficaces (eg. loi de
+fusion pour les map/fold)
+</li>
+<li>
+un cas particulier des méthodes formelles: raffiner une spécification jusqu'à l'obtention d'un
+programme complet 
+</li>
+<li>
+property-based testing (QuickCheck, smallcheck, scalacheck): exprimer la propriété que doit
+vérifier le code de sorte que l'on puisse générer des cas de test automatiquement et
+valider/invalider empririquement le code sans écrire de tests explicites
+</li>
+<li>
+c'est un cas particulier du model-based testing, des tests basés sur un modèle exécutable
+(eg. spécifier un distributeur de banque au moyen d'un automate et énumérer des chemins pour
+trouver des bugs)
+</li>
+<li>
+Eiffel: contrats sur les classes vérifiés au runtime
+</li>
+<li>
+fuzz testing
+</li>
+<li>
+PEX (Microsoft)
+
+</li>
+</ul>
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-4" class="outline-4">
+<h4 id="sec-4">4 Vers l'auto-organisation </h4>
+<div id="text-4">
+
+
+<ul>
+<li>
+se manager les uns les autres, co-management: tous les membres de l'équipe sont à égalité
+</li>
+<li>
+Weinberg (Systems Thinking, v.1) définit le manager (ou le management) comme le superviseur d'un
+système I/O: le manager observe les outputs du système et modifie ses conditions de
+fonctionnement et ses inputs pour atteindre certains objectifs, corriger des pbs&hellip;.
+</li>
+<li>
+un tel système peut-être récursif: le manager lui-même est un système qui peut être observé,
+supervisé&hellip; ou réflexif : systèmes et managers sont imbriqués et se corrigent l'un l'autre
+</li>
+<li>
+il n'y a pas de rôle attribué de manager, chacun a la possibilité d'être l'un ou l'autre selon
+les circonstances
+</li>
+<li>
+l'auto-organisation est un processus continu, depuis la hiérarchie rigide (eg. Armée ?) jusqu'à
+l'anarchisme intégral
+</li>
+<li>
+introduit chez UT7: la personne pour qui c'est important le fait. C'est une valeur de l'agilité
+</li>
+<li>
+le rôle du coach serait de trouver l'organisation adéquate pour une équipe, faire se manifester
+(ou attendre une manifestation) d'un besoin d'autonomie
+</li>
+<li>
+comment caractériser l'auto-organisation ?
+<ul>
+<li>
+pas de figure instituée prenant les décisions, elles émergent au fur et à mesure
+</li>
+<li>
+l'autorité est révocable à tout moment
+</li>
+<li>
+il est toujours possible de se réorganiser 
+</li>
+<li>
+le pouvoir est réversible
+</li>
+<li>
+l'adaptation est permanente et instantanée ?
+</li>
+</ul>
+</li>
+<li>
+positionnement d'une organisation sur deux axes:
+<ul>
+<li>
+l'axe de la fluidité du pouvoir : avec quel rapidité le pouvoir change-t'il 
+</li>
+<li>
+l'axe de la fluidité des règles
+</li>
+<li>
+l'auto-organisation possède des règles et une structure de pouvoir, mais elles sont très
+fluides, elles peuvent toujours évoluer très rapidement au gré des circonstances et des
+besoins 
+</li>
+</ul>
+</li>
+<li>
+"l'auto-organisation est 1 innovation sociale pour la responsabilisation et l'autonomie des
+gens": Laurent
+</li>
+<li>
+l'auto-organisation est une position éthique qui répond à un besoin de justice sociale, ou a un
+sentiment d'injustice sociale
+</li>
+<li>
+elle peut être source d'angoisse: "Ce qui accompagne la liberté, c'est l'insomnie", Peter Block
+</li>
+<li>
+la rétrospective est un moyen de redonner confiance, de créer du confort pour pallier à la
+"violence" de l'auto-organisation
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-5" class="outline-4">
+<h4 id="sec-5">5 Enseigner l'agilité </h4>
+<div id="text-5">
+
+
+<ul>
+<li>
+la transmission des principes, valeurs, techniques agile est difficile dans un cadre
+d'enseignement, auprès de personnes qui n'ont pas travaillé
+</li>
+<li>
+comment enseigner les différentes pratiques XP ? c'est assez facile pour certaines (eg. le TDD),
+problématiques pour d'autres et difficile à mettre en situation dans un cours (eg. customer on
+site? user stories ?)
+</li>
+<li>
+l'importance du travail en équipe est difficile à faire percevoir
+</li>
+<li>
+il faut du feedback: utiliser des fiches de "rétrospective" anonymes afin de libérer la parole
+</li>
+<li>
+comment évaluer ? Un exemple: l'auto-évaluation, les étudiants s'alignent spontanément dans
+l'ordre des mérites qu'ils s'attribuent collectivement, puis celui du milieu donne sa note et les
+autres sont calculées à partir de cette moyenne
+</li>
+<li>
+on adoucit le système en donnant à chacun la possibilité d'attribuer aux autres des bonus
+discrétionnaires 
+</li>
+<li>
+l'examene est important, c'est de la responsabilité de l'enseignant que de fournir une
+évaluation du travail de l'étudiant: cela fait partie du "contrat". L'étudiant attend de
+l'institution, donc de ses représentants, qu'ils l'aident à progresser, qu'ils identifient ses
+points forts et ses lacunes
+
+</li>
+</ul>
+</div>
+
+</div>
+
+<div id="outline-container-6" class="outline-4">
+<h4 id="sec-6">6 Subvertir l'entreprise </h4>
+<div id="text-6">
+
+
+<ul>
+<li>
+brainstorming sur les moyens de subvertir le modèle de l'entreprise
+</li>
+<li>
+limiter les salaires
+</li>
+<li>
+supprimer le modèle de sécurité sociale uniquement basé sur le salariat
+</li>
+<li>
+finances solidaires (crédit coopératif)
+</li>
+<li>
+&hellip;
+</li>
+</ul>
+</div>
+</div>
+<div id="postamble"><p class="author"> Author: 
+<a href="mailto:abailly@PABAILLY">&lt;abailly@PABAILLY&gt;</a>
+</p>
+<p class="date"> Date: 2011-01-26 08:00:04 </p>
+<p>HTML generated by org-mode 6.21b in emacs 23</p>
+</div></body>
+</html>
